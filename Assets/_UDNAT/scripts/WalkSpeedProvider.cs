@@ -3,7 +3,8 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 /// <summary>
-/// Generates a signal for <see cref="Controller"/> proportional to how fast the user is marching in place.
+/// Generates a signal for <see cref="Controller"/> proportional to
+/// how fast the user is marching in place.
 /// </summary>
 public class WalkSpeedProvider : MonoBehaviour
 {

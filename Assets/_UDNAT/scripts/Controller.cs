@@ -4,6 +4,9 @@ using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/// <summary>
+/// Drives the XR Rig's CharacterController based on "march-in-place" movement.
+/// </summary>
 
 public class Controller : MonoBehaviour
 { 

@@ -2,24 +2,27 @@ using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/// <summary>
+/// Generates a signal for <see cref="Controller"/> proportional to how fast the user is marching in place.
+/// </summary>
 public class WalkSpeedProvider : MonoBehaviour
 {
     [Header("Inputs")]
     public InputActionReference headPosition;
     public InputActionReference leftControllerPosition;
     public InputActionReference rightControllerPosition;
-    public float stepSignal; // public for debugging in Inspector
+    public float stepSignal; 
 
     [Header("Tuning")]
     public float sensitivity = 1.5f;
     public float damping = 5f;
 
-    private float lastPositionL;
-    private float lastPositionR;
+    float lastPositionL;
+    float lastPositionR;
   
-    private float verticalVelocityL;
-    private float verticalVelocityR;
-    private float averageVerticalVelocity;
+    float verticalVelocityL;
+    float verticalVelocityR;
+    float averageVerticalVelocity;
 
     public enum controllerCombinationMethodTypes
     {

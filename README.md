@@ -1,6 +1,9 @@
 # You Don't Need A Treadmill!
 ## UDNAT
 
+[![Code walkthrough video](https://github.com/shalperin/YouDontNeedA_Treadmill/blob/master/thumbnail.png?raw=true)](https://www.youtube.com/watch?v=aNW7QOKruSc)
+
+
 This is the walking-controller from the soon-to-be-released game.
 
 Left-trigger enables and disables walking.  Otherwise, march in place

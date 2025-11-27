@@ -25,7 +25,7 @@ and pump your arms as you march.
 ## Using this code in your project
 - Consider starting with the stock Unity VR Template (the "current" one as of Thanksgiving 2025 with XRI 3.2.1 works great)
 - An XR Rig based on XRI 3 (look in Assets/Samples/XR Interaction Toolkit to verify version).  In particular the XR Origin should have a CharacterController component.
-= Model your scene graph, with links to XR Origin and the various Input actions in the right places.  (You will need to look at /Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/XRI Default Input Actions)
+- Model your scene hierarchy on the demo code, with links to XR Origin and the various Input actions in the right places.  (You will need to look at /Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/XRI Default Input Actions)
 
 ### Helpful Links
 - [Demo Video](https://www.youtube.com/watch?v=DCtWDwu_-a8)

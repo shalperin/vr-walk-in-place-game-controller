@@ -13,19 +13,17 @@ namespace UDNAT
 {
     public class WalkSpeedProvider : MonoBehaviour
     {
+        [field: Header("Output, stepSignal is proportional to walking speed.")]
+        [field: SerializeField]
+        public float stepSignal { get; private set; }
+
+        
         [Header("Inputs")] 
         [SerializeField] private  InputActionReference headPosition;
         [SerializeField] private  InputActionReference leftControllerPosition;
         [SerializeField] private  InputActionReference rightControllerPosition;
 
-        [Header("Runtime state exposed publicly as StepSignal")]
-        [SerializeField] private float _stepSignal;
-        public float StepSignal
-        {
-            get => _stepSignal;
-            private set => _stepSignal = value;
-        }
-    
+        
 
         [Header("Tuning")] public float sensitivity = 1.5f;
         public float damping = 5f;
@@ -37,25 +35,23 @@ namespace UDNAT
         private float verticalVelocityR;
         private float averageVerticalVelocity;
 
-        public enum controllerCombinationMethodTypes
+        private enum controllerCombinationMethodTypes
         {
             average,
             max,
             sum,
             min
         }
-
-        public controllerCombinationMethodTypes controllerCombinationMethod =
+        private controllerCombinationMethodTypes controllerCombinationMethod =
             controllerCombinationMethodTypes.average;
 
 
-        public enum tStyleTypes
+        private enum tStyleTypes
         {
             linearEulerStep, // forward euler integration coefficient
             exactExponentialDecayCoefficient
         }
-
-        public tStyleTypes tStyle = tStyleTypes.exactExponentialDecayCoefficient;
+        private tStyleTypes tStyle = tStyleTypes.exactExponentialDecayCoefficient;
 
         void Start()
         {
@@ -126,7 +122,7 @@ namespace UDNAT
                     break;
             }
 
-            _stepSignal = Mathf.Lerp(_stepSignal, rawCombined, t);
+            stepSignal = Mathf.Lerp(stepSignal, rawCombined, t);
         }
 
 

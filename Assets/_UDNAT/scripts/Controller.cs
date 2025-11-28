@@ -19,11 +19,13 @@ namespace UDNAT
         [Header("The XR Origin from the Unity VR template")]
         [SerializeField] private XROrigin _xrOrigin;
 
-        Camera mainCamera;
-        CharacterController characterController;
+        private Camera mainCamera;
+        private CharacterController characterController;
 
-        [Header("Tuning")] public float speed = 2.75f;
-        [SerializeField] private  bool useCharacterController = true;
+        [Header("Tuning")] 
+        public float speed = 2.75f;
+        
+        private bool useCharacterController = true;
 
         private void Awake()
         {
@@ -63,7 +65,7 @@ namespace UDNAT
 
         private void Update()
         {
-            if (_walkEngageProvider.IsWalking)
+            if (_walkEngageProvider.isWalking)
             {
                 Move();
             }
@@ -75,7 +77,7 @@ namespace UDNAT
             Vector3 forward = mainCamera.transform.forward;
             forward.y = 0;
             forward.Normalize();
-            Vector3 movement = forward * speed * _walkSpeedProvider.StepSignal;
+            Vector3 movement = forward * speed * _walkSpeedProvider.stepSignal;
             return movement;
         }
 

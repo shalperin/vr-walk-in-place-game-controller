@@ -11,19 +11,17 @@ namespace UDNAT
 {
     public class WalkEngageProvider : MonoBehaviour
     {
-        [Header("Trigger/Click Input Action Reference (udnat folder)")]
+        [field: Header("Output")]
+        [field: SerializeField]
+        public bool isWalking {get; private set;} = true;
+
+        
+        
+        [Header("Input Action Reference (any button will work)")]
         [SerializeField]
         private InputActionReference buttonAction;
-
-        [SerializeField]
-        [Header("Runtime state exposed publicly as IsWalking")]
-        private bool _isWalking = true;
-
-        public bool IsWalking
-        {
-            get => _isWalking;
-            private set => _isWalking = value;
-        }
+        
+       
 
         private void OnEnable()
         {
@@ -47,7 +45,7 @@ namespace UDNAT
         private void OnClick(InputAction.CallbackContext ctx)
         {
             Debug.Log("Clicked!");
-            _isWalking = !_isWalking;
+            isWalking = !isWalking;
         }
     }
 }

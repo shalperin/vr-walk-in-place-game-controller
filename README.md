@@ -4,10 +4,10 @@
 [![Code walkthrough video](https://github.com/shalperin/YouDontNeedA_Treadmill/blob/master/thumbnail.png?raw=true)](https://www.youtube.com/watch?v=aNW7QOKruSc)
 
 
-This is the walking-controller from the soon-to-be-released game.
-
 Left-trigger enables and disables walking.  Otherwise, march in place
-and pump your arms as you march.
+and pump your arms as you march. The significance of this code is that *eventually* omni-directional treadmills will be a reality.  When that happens, it would be trivially easy
+to port games written with 'udnat' to use the new hardware.
+
 
 ### To Run the Demo 
 1. Clone the repo
@@ -36,7 +36,7 @@ Copyright Samuel Halperin 2025
 
 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-Please inquire at sqh@me.com for License
+Please inquire via any of the DM links at https://shimi.run for License
 
 ### Support this work
-I’m requesting modest retroactive support for several tools I purchased to complete and share the first phase of my independent VR locomotion research. To keep the ask reasonable, I’m seeking just 25% of the cost of the development hardware and software—including a Lenovo Legion 5 laptop, an Elgato capture device for recording demonstrations, two Quest 3 headsets (one for development, one for user testing), and Final Cut Pro for producing documentation. These items now form a small but durable toolkit that will continue to support future open-source XR work. Partial support would help sustain the next phase of the project and broaden its impact without asking for reimbursement of full costs.
+I’m requesting modest retroactive support for several tools and assets I purchased to complete and share the first phase of my independent VR locomotion research. If you are interested in supporting this and future work please reach out -- contact info at https://shimi.run

@@ -4,9 +4,8 @@
 [![Code walkthrough video](https://github.com/shalperin/YouDontNeedA_Treadmill/blob/master/thumbnail.png?raw=true)](https://www.youtube.com/watch?v=aNW7QOKruSc)
 
 
-Left-trigger enables and disables walking.  Otherwise, march in place
-and pump your arms as you march. The significance of this code is that *eventually* omni-directional treadmills will be a reality.  When that happens, it would be trivially easy
-to port games written with 'udnat' to use the new hardware.
+Left-trigger enables and disables walking.  Left-controller 'X' button jumps. Aspirationally the left menu button will display and hide some quick help. Otherwise, march in place
+and pump your arms as you march. 
 
 
 ### To Run the Demo 
@@ -17,7 +16,7 @@ to port games written with 'udnat' to use the new hardware.
 
 ### Tour of the Project
 - Code lives in /Assets/\_UDNAT
-- Game Objects live under 'udnat' in the scene hierarchy
+- Game Objects live under UDNAT in the scene hierarchy
 
 ### Assumptions For Running the Demo
 - If you are trying to run the demo right out of the box:  Working Meta PC/VR via Meta Link or whatever.  You could also add Android support and build/push an APK to the Quest.  For other VR platforms you may need to reconfigure XR.
@@ -36,7 +35,20 @@ Copyright Samuel Halperin 2025
 
 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
-Please inquire via any of the DM links at https://shimi.run for License
+
+### Intuitions / Areas for someone to do research
+- How we think about VR, especially with respect to cognitive load and simulator sickness may change as younger generations grow up having spent time in VR. ["VR naivete"]
+- *Eventually* omni-directional treadmills will be a reality, and some more research into gameplay when the user is playing under aerobic load would be useful.
+- Probably possible to establish via literature review (or empirically) that as heart rate increases, the tolerance for video game problem or puzzle solving decreases.
+- Study this effect specifically in a VR exergame.
+- Study this effect with an eye towards the next generation of VR users: does the magnitude of the effect change if the user is "VR naive" (never having used VR) or not (i.e. a regular Horizon Worlds, VR Chat user, or Gorilla Tag user) 
+
+A free GNU General Public license is hereby granted to anyone doing nonprofit academic research.  If you need that more formally, reach out. http://shimi.run.
 
 ### Support this work
-I’m requesting modest retroactive support for several tools and assets I purchased to complete and share the first phase of my independent VR locomotion research. If you are interested in supporting this and future work please reach out -- contact info at https://shimi.run
+Probably I should request modest retroactive support for several tools and assets I purchased to complete and share the first phase of my independent VR locomotion research. If you are interested in supporting this and future work please reach out.  Also if you are working on an interesting project and need coding help, also get in touch. -- contact info at https://shimi.run
+
+### Current TODOs / Direction / Life Balance
+- Finish up demo #1 with a quick help menu
+- Deploy demo #1 to Meta App Lab or Sidequest (preferably Meta)
+- Refocus on Unity Professional Programmer Certification and re-integrate into local gym instead of trying to rely solely on UDNAT + Supernatural VR (boxing) to meet daily fitness requirement.

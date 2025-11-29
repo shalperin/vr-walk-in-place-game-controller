@@ -47,8 +47,3 @@ A free GNU General Public license is hereby granted to anyone doing nonprofit ac
 
 ### Support this work
 Probably I should request modest retroactive support for several tools and assets I purchased to complete and share the first phase of my independent VR locomotion research. If you are interested in supporting this and future work please reach out.  Also if you are working on an interesting project and need coding help, also get in touch. -- contact info at https://shimi.run
-
-### Current TODOs / Direction / Life Balance
-- Finish up demo #1 with a quick help menu
-- Deploy demo #1 to Meta App Lab or Sidequest (preferably Meta)
-- Refocus on Unity Professional Programmer Certification and re-integrate into local gym instead of trying to rely solely on UDNAT + Supernatural VR (boxing) to meet daily fitness requirement.

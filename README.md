@@ -45,6 +45,3 @@ IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY C
 - Study this effect with an eye towards the next generation of VR users: does the magnitude of the effect change if the user is "VR naive" (never having used VR) or not (i.e. a regular Horizon Worlds, VR Chat user, or Gorilla Tag user) 
 
 A free GNU General Public license is hereby granted to anyone doing nonprofit academic research.  If you need that more formally, reach out. http://shimi.run.
-
-### Support this work
-Probably I should request modest retroactive support for several tools and assets I purchased to complete and share the first phase of my independent VR locomotion research. If you are interested in supporting this and future work please reach out.  Also if you are working on an interesting project and need coding help, also get in touch. -- contact info at https://shimi.run

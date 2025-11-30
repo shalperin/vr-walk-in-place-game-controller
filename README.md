@@ -2,10 +2,8 @@
 ## UDNAT
 
 [![Demo video](https://github.com/shalperin/YouDontNeedA_Treadmill/blob/master/demo-vid-thumb.png?raw=true)](https://www.youtube.com/watch?v=DCtWDwu_-a8)
-Demo Video
 
 [![Code walkthrough video](https://github.com/shalperin/YouDontNeedA_Treadmill/blob/master/walkthrough-vid-thumb.png?raw=true)](https://www.youtube.com/watch?v=aNW7QOKruSc)
-Code Walkthrough Video
 
 Left-trigger enables and disables walking.  Left-controller 'X' button jumps. Aspirationally the left menu button will display and hide some quick help. Otherwise, march in place
 and pump your arms as you march. 

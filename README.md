@@ -17,7 +17,7 @@ and pump your arms as you march.
 
 1. Clone the repo
 2. Add the project to Unity Hub (and install the right version of Unity)
-3. Open the scene /Assets/\_UDNAT/Scenes/BasicScene
+3. Open the scene /Assets/UDNAT/Scenes/BasicScene
 4. Run
 
 ### Assumptions For Running the Demo
@@ -25,7 +25,7 @@ and pump your arms as you march.
 
   
 ### Tour of the Project
-- Code lives in /Assets/\_UDNAT
+- Code lives in /Assets/UDNAT
 - Game Objects live under UDNAT in the scene hierarchy
   
 

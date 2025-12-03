@@ -20,12 +20,14 @@ and pump your arms as you march.
 3. Open the scene /Assets/\_UDNAT/Scenes/BasicScene
 4. Run
 
+### Assumptions For Running the Demo
+- If you are trying to run the demo right out of the box:  Working Meta PC/VR via Meta Link or whatever.  You could also add Android support and build/push an APK to the Quest.  For other VR platforms you may need to reconfigure XR.
+
+  
 ### Tour of the Project
 - Code lives in /Assets/\_UDNAT
 - Game Objects live under UDNAT in the scene hierarchy
-
-### Assumptions For Running the Demo
-- If you are trying to run the demo right out of the box:  Working Meta PC/VR via Meta Link or whatever.  You could also add Android support and build/push an APK to the Quest.  For other VR platforms you may need to reconfigure XR.
+  
 
 ## Using this code in your project
 - Consider starting with the stock Unity VR Template (the "current" one as of Thanksgiving 2025 with XRI 3.2.1 works great)

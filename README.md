@@ -7,11 +7,14 @@ Hopefully this repo represents a reusable component for implementing a walk-in-p
 
 [![Code walkthrough video](https://github.com/shalperin/YouDontNeedA_Treadmill/blob/master/walkthrough-vid-thumb.png?raw=true)](https://www.youtube.com/watch?v=aNW7QOKruSc)
 
-Left-trigger enables and disables walking.  Left-controller 'X' button jumps. Aspirationally the left menu button will display and hide some quick help. Otherwise, march in place
-and pump your arms as you march. 
+### Demo pre-built executable for Windows PC and Meta Quest PC/VR
+https://shalperin.itch.io/udnat-demo
 
 
 ### To Run the Demo 
+Left-trigger enables and disables walking.  Left-controller 'X' button jumps. Aspirationally the left menu button will display and hide some quick help. Otherwise, march in place
+and pump your arms as you march. 
+
 1. Clone the repo
 2. Add the project to Unity Hub (and install the right version of Unity)
 3. Open the scene /Assets/\_UDNAT/Scenes/BasicScene

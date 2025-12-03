@@ -11,7 +11,7 @@ Hopefully this repo represents a reusable component for implementing a walk-in-p
 https://shalperin.itch.io/udnat-demo
 
 
-### To Run the Demo 
+### To Run the Demo Via Building This Source Code In Unity
 Left-trigger enables and disables walking.  Left-controller 'X' button jumps. Aspirationally the left menu button will display and hide some quick help. Otherwise, march in place
 and pump your arms as you march. 
 

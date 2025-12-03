@@ -1,6 +1,8 @@
 # You Don't Need A Treadmill!
 ## UDNAT
 
+Hopefully this repo represents a reusable component for implementing a walk-in-place locomotion controller that others might find useful!
+
 [![Demo video](https://github.com/shalperin/YouDontNeedA_Treadmill/blob/master/demo-vid-thumb.png?raw=true)](https://www.youtube.com/watch?v=DCtWDwu_-a8)
 
 [![Code walkthrough video](https://github.com/shalperin/YouDontNeedA_Treadmill/blob/master/walkthrough-vid-thumb.png?raw=true)](https://www.youtube.com/watch?v=aNW7QOKruSc)
